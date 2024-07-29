@@ -10,5 +10,5 @@ object Api {
     /**
      * 功能介绍
      */
-    const val INSTRUCTIONS_URL = "${GITEE_URL}/blob/main/doc/Instructions.md"
+    const val INSTRUCTIONS_URL = "${GITEE_URL}/blob/master/doc/Instructions.md"
 }
