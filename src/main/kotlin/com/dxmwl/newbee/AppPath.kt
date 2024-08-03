@@ -25,7 +25,7 @@ object AppPath {
 
     /**
      * 获取此目录下的Apk文件
-     * 会递归遍历此目录，获取目录下前9个Apk，然后按修改时间降序返回
+     * 会递归遍历此目录，获取目录下前20个Apk，然后按修改时间降序返回
      */
     fun listApk(dir: File): List<File> {
         return dir.walkBottomUp()
@@ -33,6 +33,6 @@ object AppPath {
             .toList()
             .filter { it.name.endsWith(".apk", true) }
             .sortedByDescending { Files.getLastModifiedTime(it.toPath()) }
-            .take(9)
+            .take(20)
     }
 }
