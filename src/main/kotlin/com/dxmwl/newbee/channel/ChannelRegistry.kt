@@ -5,6 +5,7 @@ import com.dxmwl.newbee.channel.honor.HonorChannelTask
 import com.dxmwl.newbee.channel.huawei.HuaweiChannelTask
 import com.dxmwl.newbee.channel.mi.MiChannelTask
 import com.dxmwl.newbee.channel.oppo.OPPOChannelTask
+import com.dxmwl.newbee.channel.pugongying.PugongyingChannelTask
 import com.dxmwl.newbee.channel.vivo.VIVOChannelTask
 
 private const val DEBUG_TASK = false
@@ -16,7 +17,8 @@ object ChannelRegistry {
         MiChannelTask(),
         OPPOChannelTask(),
         VIVOChannelTask(),
-        HonorChannelTask()
+        HonorChannelTask(),
+        PugongyingChannelTask()
     )
 
     private val mockChannels: List<ChannelTask> = listOf(
@@ -24,6 +26,7 @@ object ChannelRegistry {
         MockChannelTask("小米", "MI"),
         MockChannelTask("OPPO", "OPPO"),
         MockChannelTask("VIVO", "VIVO"),
+        MockChannelTask("蒲公英", "pugongying"),
     )
 
     val channels: List<ChannelTask> = if (DEBUG_TASK && BuildConfig.debug) mockChannels else realChannels

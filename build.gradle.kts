@@ -1,5 +1,6 @@
 import org.gradle.kotlin.dsl.support.zipTo
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
+import java.net.URI
 import java.util.*
 
 plugins {

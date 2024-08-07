@@ -31,3 +31,4 @@ chmod +x ./gradlew && ./gradlew packageMac
 - OPPO https://open.oppomobile.com/new/developmentDoc/info?id=10998
 - VIVO https://dev.vivo.com.cn/documentCenter/doc/327
 - 荣耀 https://developer.honor.com/cn/doc/guides/101359
+- 蒲公英 https://www.pgyer.com/doc/view/api#auth

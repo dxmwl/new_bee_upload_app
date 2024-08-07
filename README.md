@@ -2,7 +2,7 @@
 
 # 小蜜蜂传包  
 
-一键上传Apk到多个应用市场，开源，免费
+一键上传Apk到多个应用市场，开源，免费，配合- [应用内更新（已开源）](https://github.com/dxmwl/update_app_online)使用，效果更佳
 
 <a href="./doc/ENGLISH.md">English README</a>
 
