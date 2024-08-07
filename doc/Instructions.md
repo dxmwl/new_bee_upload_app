@@ -93,6 +93,11 @@ https://dev.vivo.com.cn/contacts/details
 <img src="../pictures/honor/03.png" style="border:2px solid #f4f4f4;border-radius:20px"/>
 <img src="../pictures/honor/04.png" style="border:2px solid #f4f4f4;border-radius:20px"/>
 
+#### 2.6 蒲公英
+**操作截图**：
+<img src="../pictures/pugongying/img.png" style="border:2px solid #f4f4f4;border-radius:20px"/>
+<img src="../pictures/pugongying/img_1.png" style="border:2px solid #f4f4f4;border-radius:20px"/>
+
 **操作说明**：
 1. 打开网页：
 https://developer.honor.com/cn
