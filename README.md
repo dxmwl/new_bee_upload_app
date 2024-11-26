@@ -7,6 +7,8 @@
 
 <a href="./doc/ENGLISH.md">English README</a>
 
+<img src="./pictures/扫码_搜索联合传播样式-标准色版.png" style="border:2px solid #f4f4f4;border-radius:10px"/>
+
 ## 应用界面截图
 
 ### 1. 首页
