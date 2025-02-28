@@ -8,7 +8,7 @@ plugins {
     id("org.jetbrains.compose")
 }
 
-val appVersion = AppVersion(1, 2, 0)
+val appVersion = AppVersion(1, 2, 1)
 
 @Suppress("SpellCheckingInspection")
 val packageId = "com.dxmwl.newbee"
